@@ -29,6 +29,7 @@ public class AppTest
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		System.out.println("I am in before suite");
 	}
+	//this is atest
 
 	@BeforeMethod
 	public void beforeMethod() {
